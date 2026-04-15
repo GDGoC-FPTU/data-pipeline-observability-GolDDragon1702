@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Kết quả thí nghiệm
+## 1. Ket qua thi nghiem
 
 Chạy `agent_simulation.py` với 2 bộ dữ liệu và ghi lại kết quả:
 
@@ -17,9 +17,9 @@ Chạy `agent_simulation.py` với 2 bộ dữ liệu và ghi lại kết quả:
 
 ---
 
-## 2. Phân tích & nhận xét
+## 2. Phan tich & nhan xet
 
-### Tại sao Agent trả lời sai khi dùng Garbage Data?
+### Tai sao Agent tra loi sai khi dung Garbage Data?
 
 Khi sử dụng `garbage_data.csv`, Agent đã đưa ra câu trả lời hoàn toàn không hợp lý ("Nuclear Reactor at $999999") vì dữ liệu đầu vào chứa nhiều vấn đề nghiêm trọng về chất lượng:
 
@@ -39,7 +39,7 @@ Record "Ghost Item" có `id = None` và `category = None`. Các giá trị null 
 
 ---
 
-## 3. Kết luận
+## 3. Ket luan
 
 **Quality Data > Quality Prompt?** 
 
