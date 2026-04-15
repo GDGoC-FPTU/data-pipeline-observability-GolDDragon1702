@@ -41,6 +41,8 @@ Record "Ghost Item" có `id = None` và `category = None`. Các giá trị null 
 
 ## 3. Kết luận
 
-**Quality Data > Quality Prompt?** ✅ **Đồng ý hoàn toàn.**
+**Quality Data > Quality Prompt?** 
+
+**Đồng ý hoàn toàn.**
 
 Qua thí nghiệm này, có thể thấy rằng dù Agent có logic tốt đến đâu, nếu dữ liệu đầu vào bị ô nhiễm (duplicate, null, outlier, wrong type), kết quả đầu ra sẽ không thể tin cậy. Một prompt tốt không thể "cứu" được một model đang hoạt động trên dữ liệu sai. Ngược lại, khi pipeline ETL làm sạch dữ liệu đúng cách (loại bỏ giá <= 0, category rỗng), Agent ngay lập tức cho ra câu trả lời chính xác và có ý nghĩa. **Data quality là nền tảng — không có gì thay thế được.**
